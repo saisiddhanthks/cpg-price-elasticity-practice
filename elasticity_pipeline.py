@@ -19,7 +19,7 @@ except:
     GAM_AVAILABLE = False
 
 
-DATA_PATH = "huge_cpg_price_elasticity_dataset.csv"
+DATA_PATH = "data/cpg_weekly_store_sku.csv"
 OUTPUT_DIR = "outputs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
